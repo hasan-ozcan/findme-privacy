@@ -15,9 +15,7 @@
       --border-subtle: rgba(148, 163, 184, 0.35);
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -43,9 +41,7 @@
     }
 
     @media (min-width: 640px) {
-      .card {
-        padding: 40px 36px;
-      }
+      .card { padding: 40px 36px; }
     }
 
     h1, h2, h3 {
@@ -54,19 +50,9 @@
       letter-spacing: 0.01em;
     }
 
-    h1 {
-      font-size: 1.9rem;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 28px;
-    }
-
-    h3 {
-      font-size: 1.05rem;
-      margin-top: 20px;
-    }
+    h1 { font-size: 1.9rem; }
+    h2 { font-size: 1.2rem; margin-top: 28px; }
+    h3 { font-size: 1.05rem; margin-top: 20px; }
 
     p {
       margin: 0 0 10px;
@@ -82,10 +68,7 @@
       font-size: 0.96rem;
     }
 
-    li {
-      margin-bottom: 4px;
-      line-height: 1.5;
-    }
+    li { margin-bottom: 4px; line-height: 1.5; }
 
     .pill {
       display: inline-flex;
@@ -133,199 +116,179 @@
     }
   </style>
 </head>
+
 <body>
-  <div class="page">
-    <div class="card">
-      <div class="pill">
-        <span class="pill-dot"></span>
-        PRIVACY POLICY
-      </div>
+<div class="page">
+<div class="card">
 
-      <h1>FindMe! Privacy Policy</h1>
-      <p class="tagline">
-        This Privacy Policy explains how FindMe! collects, uses, and protects your information when you use the app.
-      </p>
-      <p class="effective">
-        Effective date: 08 February 2026
-      </p>
+<div class="pill"><span class="pill-dot"></span>PRIVACY POLICY</div>
 
-      <hr class="section-divider" />
+<h1>FindMe! Privacy Policy</h1>
+<p class="tagline">
+This Privacy Policy explains how FindMe! collects, uses, and protects your information when you use the app.
+</p>
+<p class="effective">Effective date: 08 February 2026</p>
 
-      <h2>1. Who we are</h2>
-      <p>
-        FindMe! is a mobile application that helps users discover nearby people and view the social media profiles they choose to share. This Privacy Policy applies only to the FindMe! app.
-      </p>
+<hr class="section-divider" />
 
-      <h2>2. What data we collect</h2>
-      <p>
-        FindMe! is designed to collect only the minimum amount of information needed to provide the core functionality of the app.
-      </p>
+<h2>1. Who we are</h2>
+<p>
+FindMe! is a mobile application that helps users discover nearby people and view the social media profiles and
+information they choose to share. This Privacy Policy applies only to the FindMe! app.
+</p>
 
-      <h3>2.1. Account data</h3>
-      <p>When you create an account, we collect:</p>
-      <ul>
-        <li>Email address (used for login, account security, and password reset)</li>
-        <li>Username</li>
-        <li>Authentication data provided by our identity provider (Firebase Authentication)</li>
-      </ul>
+<h2>2. What data we collect</h2>
+<p>
+FindMe! is designed to collect only the minimum amount of information needed to provide its core functionality.
+</p>
 
-      <h3>2.2. Profile data</h3>
-      <p>Within your profile, you can optionally add:</p>
-      <ul>
-        <li>Profile photo (optional)</li>
-        <li>Profile rows (for example: apps, services, or other information you choose to show)</li>
-        <li>Comment / bio text you enter yourself</li>
-        <li>
-          Social media usernames or links (such as Instagram or other platforms).
-          This information is provided entirely by you and is only displayed to other users
-          for profile discovery purposes. We do not access, verify, or interact with your
-          social media accounts.
-        </li>
-      </ul>
-      <p>
-        All profile content is provided voluntarily by you and is visible to other users according to the app’s design.
-      </p>
+<h3>2.1. Account data</h3>
+<ul>
+<li>Email address (used for login, account security, and password reset)</li>
+<li>Username</li>
+<li>Authentication data provided by Firebase Authentication</li>
+</ul>
 
-      <h3>2.3. Location data</h3>
-      <p>
-        To show you nearby users, FindMe! uses your device’s location (with your permission). Depending on your settings, we may collect:
-      </p>
-      <ul>
-        <li>Approximate GPS coordinates (latitude &amp; longitude)</li>
-        <li>A derived GeoHash or similar approximate location representation</li>
-        <li>Timestamps such as <span class="strong">lastUpdated</span> and <span class="strong">lastAppclose</span> to reflect your recent activity</li>
-      </ul>
-      <p>
-        Location data is used only to:
-      </p>
-      <ul>
-        <li>Calculate distance between you and other users</li>
-        <li>Determine whether other users are “nearby” according to the app’s logic</li>
-        <li>Update your presence so that outdated or inactive users are not shown</li>
-      </ul>
+<h3>2.2. Profile data</h3>
+<p>You may optionally provide the following profile information:</p>
+<ul>
+<li>Profile photo</li>
+<li>Profile rows (apps, services, or other information you choose to display)</li>
+<li>Comment or bio text</li>
+<li>Social media usernames or links (e.g., Instagram, Snapchat)</li>
+</ul>
+<p>
+All profile data is provided voluntarily by you and is displayed to other users as part of the app’s discovery features.
+FindMe! does not access or interact with your social media accounts.
+</p>
 
-      <h3>2.4. Usage &amp; device data</h3>
-      <p>
-        For security, reliability, and notifications, we may also collect:
-      </p>
-      <ul>
-        <li>A device or push notification identifier (for example, an FCM token) to send notifications to your device</li>
-        <li>Basic technical information such as app version, language, and platform (iOS)</li>
-        <li>Crash or error logs provided by our service providers</li>
-      </ul>
+<h3>2.3. Location data</h3>
+<p>
+To show nearby users, FindMe! uses your device’s location with your permission.
+</p>
+<ul>
+<li>Approximate GPS coordinates</li>
+<li>Derived location representations (such as GeoHash)</li>
+<li>Activity timestamps (e.g., lastUpdated, lastAppclose)</li>
+</ul>
+<p>
+Location data is used solely to determine proximity and ensure that inactive or outdated users are not displayed.
+If location services are disabled, denied, or unavailable, nearby discovery features may be limited or unavailable.
+</p>
 
-      <hr class="section-divider" />
+<h3>2.4. Usage &amp; device data</h3>
+<ul>
+<li>Push notification token (used only to deliver notifications)</li>
+<li>Basic technical data (platform, language, app version)</li>
+<li>Crash or error logs from service providers</li>
+</ul>
 
-      <h2>3. How we use your data</h2>
-      <p>We use the information we collect for the following purposes:</p>
-      <ul>
-        <li>To create and manage your account and allow you to sign in securely</li>
-        <li>To display your profile (username, photo, profile rows, comment, and social links you choose) to other users</li>
-        <li>To show you nearby users based on location data and activity timestamps</li>
-        <li>To send push notifications when relevant (for example, when users are nearby according to the app’s rules)</li>
-        <li>To maintain the security, stability, and performance of the app</li>
-        <li>To prevent misuse (for example, spam or abuse)</li>
-      </ul>
+<hr class="section-divider" />
 
-      <p>
-        Users can disable their visibility at any time from the app settings.
-        When visibility is turned off, location data is not used to display the user to others.
-      </p>
+<h2>3. How we use your data</h2>
+<ul>
+<li>Create and manage your account</li>
+<li>Display your profile to other users</li>
+<li>Show nearby users based on location and activity</li>
+<li>Send push notifications when relevant</li>
+<li>Maintain security, performance, and reliability</li>
+<li>Prevent abuse or misuse of the service</li>
+</ul>
+<p>
+You can control your visibility at any time. When you set your status to inactive, your profile and location data
+are not used for nearby discovery, and other users cannot see you.
+</p>
 
-      <hr class="section-divider" />
+<hr class="section-divider" />
 
-      <h2>4. Legal basis (for users in the EU/EEA)</h2>
-      <p>
-        If you are located in the European Union or European Economic Area, we process your personal data based on:
-      </p>
-      <ul>
-        <li><span class="strong">Contract necessity</span> – to provide the core functionality of the app (account, profile, nearby users).</li>
-        <li><span class="strong">Legitimate interests</span> – to keep the service secure, prevent abuse, and improve reliability.</li>
-        <li><span class="strong">Consent</span> – for access to location services and push notifications, which you can allow or deny in your device settings.</li>
-      </ul>
+<h2>4. Legal basis (EU/EEA)</h2>
+<ul>
+<li><span class="strong">Contract necessity</span> – to provide core features</li>
+<li><span class="strong">Legitimate interests</span> – security and abuse prevention</li>
+<li><span class="strong">Consent</span> – for location services and notifications</li>
+</ul>
 
-      <hr class="section-divider" />
+<hr class="section-divider" />
 
-      <h2>5. How we share your data</h2>
-      <p>
-        We do not sell your personal data. We share data only with:
-      </p>
-      <ul>
-        <li>
-          <span class="strong">Service providers</span> who help us operate the app, such as:
-          <ul>
-            <li>Firebase Authentication (for login and account management)</li>
-            <li>Firebase Firestore (for storing user and profile data)</li>
-            <li>Firebase Storage (for storing profile images)</li>
-            <li>Firebase Cloud Messaging (for push notifications)</li>
-          </ul>
-        </li>
-        <li>
-          <span class="strong">Other users</span> – only to the extent necessary for the app to work (for example, showing your username, profile image, profile rows, comment, and social media handles you choose to add).
-        </li>
-      </ul>
-      <p>
-        Service providers act as data processors on our behalf and are not allowed to use your data for their own marketing.
-      </p>
+<h2>5. How we share your data</h2>
+<p>We do not sell your personal data.</p>
+<ul>
+<li>
+<span class="strong">Service providers</span> (Firebase / Google Cloud) for hosting, authentication,
+data storage, and notifications
+</li>
+<li>
+<span class="strong">Other users</span> – limited to the profile information you choose to make visible,
+such as username, profile photo, profile rows, comment text, and social media handles
+</li>
+</ul>
 
-      <hr class="section-divider" />
+<hr class="section-divider" />
 
-      <h2>6. Data storage &amp; retention</h2>
-      <p>
-        Your data is stored in cloud infrastructure operated by our service providers (for example, Firebase/Google Cloud).
-      </p>
-      <p>
-        We keep your account and profile data for as long as your account remains active. Location and presence data (such as recent coordinates and timestamps) may be kept for a limited period to ensure that nearby user results are reasonably up to date.
-      </p>
-      <p>
-        If you log out and stop using the app, some technical or backup copies may remain for a limited time in system logs or backups, but they are removed or anonymized when no longer needed.
-      </p>
+<h2>6. Data storage &amp; retention</h2>
+<p>
+Account and profile data is stored as long as your account remains active.
+Location and presence data is retained only for a limited time to ensure accuracy.
+</p>
 
-      <hr class="section-divider" />
+<hr class="section-divider" />
 
-      <h2>7. Your choices &amp; controls</h2>
-      <h3>7.1. Location permissions</h3>
-      <p>
-        You can control location access at any time from your device settings. If you revoke location permission, the app will not be able to show nearby users based on your location.
-      </p>
+<h2>7. Your choices &amp; controls</h2>
 
-      <h3>7.2. Visibility &amp; active status</h3>
-      <p>
-        Within the app, you can change your visibility status (for example, Active/Inactive) from the settings screen.
-      </p>
-      <p>
-        When you disable your visibility, your location data is not used to display you to other users in nearby results. You may also see fewer or no location-based interactions while invisible.
-      </p>
+<h3>7.1. Location permissions</h3>
+<p>
+You can manage location permissions in your device settings. If location access is disabled,
+nearby discovery features may not function.
+</p>
 
-      <h3>7.3. Notifications</h3>
-      <p>
-        You can allow or deny push notifications in your device settings. If you disable notifications, we will not send push alerts to your device.
-      </p>
+<h3>7.2. Visibility &amp; active status</h3>
+<p>
+You can switch between active and inactive status in the app settings.
+When inactive, your profile is hidden and not shown to other users.
+</p>
 
-      <h3>7.4. Profile content</h3>
-      <p>
-        You can edit or remove your profile information (photo, profile rows, comment, and social media links) from within the app. Certain core account data such as your email address may be required for login and cannot be removed without deleting your account.
-      </p>
+<h3>7.3. Notifications</h3>
+<p>
+You can enable or disable push notifications at any time from your device settings.
+</p>
 
-      <h3>7.5. Stopping use of the app</h3>
-      <p>
-        You can stop using FindMe! at any time by logging out and uninstalling the app. You can also revoke permissions (such as location or notifications) from your device settings.
-      </p>
+<h3>7.4. Profile content</h3>
+<p>
+You can edit or remove your profile information at any time from within the app.
+</p>
 
-      <hr class="section-divider" />
+<h3>7.5. Stopping use of the app</h3>
+<p>
+You may stop using FindMe! at any time by logging out, uninstalling the app,
+or revoking permissions from your device.
+</p>
 
-      <h2>8. Children’s privacy</h2>
-      <p>
-        FindMe! is not intended for children under the age required by local law (for example, 13 or 16 years old). We do not knowingly collect personal information from children in this age range. If we learn that such data has been collected, we will take reasonable steps to delete it.
-      </p>
+<hr class="section-divider" />
 
-      <hr class="section-divider" />
+<h2>8. Children’s privacy</h2>
+<p>
+FindMe! is not intended for children under the minimum age required by law.
+We do not knowingly collect personal data from children.
+</p>
 
-      <h2>9. Changes to this Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. If we make material changes, we will update the “Effective date” at the top of this page. Your continued use of the app after an update means that you accept the revised Policy.
-      </p>
-    </div>
-  </div>
+<hr class="section-divider" />
+
+<h2>9. Changes to this policy</h2>
+<p>
+We may update this Privacy Policy from time to time. Changes will be reflected
+by updating the effective date.
+</p>
+
+<hr class="section-divider" />
+
+<h2>10. Technical limitations &amp; availability</h2>
+<p>
+FindMe! relies on internet connectivity, device permissions, and system services.
+If required permissions are disabled or services are unavailable, some features may not function.
+We do not process location or activity data when such services are unavailable.
+</p>
+
+</div>
+</div>
 </body>
 </html>
